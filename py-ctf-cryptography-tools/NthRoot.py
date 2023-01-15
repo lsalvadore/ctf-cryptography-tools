@@ -1,7 +1,7 @@
 def NthRoot(Base,N):
     '''
     Compute the N-th root of Base using bisection method.
-    Result is the largest integer X such that X ** N <= Base.
+    Return the largest integer X such that X ** N <= Base.
     '''
     Left = 1
     Test = Base >> 1
